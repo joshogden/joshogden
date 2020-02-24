@@ -3,146 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
 @import "./../components/Media-Queries.scss";
 
-.homePge{
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-    &_content{
-      width: 100%;
-      align-content: center;
-      position: relative;
-      
-
-      &-header{
-        
-      //   &--title {
-      //   font-family: 'Raleway', sans-serif;
-      //   font-weight: 100;
-      //   font-size: 16px;
-      //   //width: 100%;
-      //   text-align: center;
-      //   position: fixed;
-      //   z-index: 1;
-      //   top: 50%;
-      //   left:50%;
-        
-      //   transform: translate(-50%, -50%);
-      //   color: #FFFFFF;
-      //   letter-spacing: 8px;
-
-      //   @include respond-above(xxs){
-      //     font-size: 24px;
-      //     top: 24%;
-      //   }
-
-      //   @include respond-above(xs){
-      //     font-size: 30px;
-      //     top: 26%;
-      //     width: 40%;
-      //   }
-
-      //   @include respond-above(sm){
-      //     font-size: 30px;
-      //     top: 32%;
-      //     width: 100%;
-          
-      //   }
-
-      //   @include respond-above(md){
-      //     font-size: 40px;
-      //     top: 32%;
-          
-      //   }
-
-      //   @include respond-above(1050){
-      //     font-size: 46px;
-      //     top: 35%;
-          
-      //   }
-
-      //   @include respond-above(lg){
-      //     font-size: 55px;
-      //     top: 45%;
-          
-      //   }
-      
-      // }
-
-      &-subtitle {
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        font-weight: 100;
-        font-size: 10px;
-        width: 100%;
-        text-align: center;
-        position: fixed;
-        z-index: 1;
-        top: 42%;
-        left: 50%;
-
-        transform: translate(-50%, -50%);
-        color: #FFFFFF;
-        letter-spacing: 2px;
-
-        // @include respond-above(xxs){
-        //   font-size: 12px;
-        //   top: 46%;
-        // }
-
-        // @include respond-above(xs){
-        //   font-size: 16px;
-        //   top: 50%;
-         
-        // }
-
-        // @include respond-above(sm){
-        //   font-size: 18px;
-        //   top: 45%;
-          
-          
-        // }
-
-        // @include respond-above(md){
-        //   font-size: 20px;
-        //   top: 45%;
-          
-        // }
-
-        // @include respond-above(1050){
-        //   font-size: 22px;
-        //   top: 45%;
-          
-        // }
-
-        // @include respond-above(lg){
-        //   font-size: 24px;
-        //   top: 55%;
-          
-        // }
-      }
-    }
-
-      &-backgroundImage {
-        width:100%;
-        height:100%;
-        
-        // filter: blur(0.9px);
-        // -webkit-filter: blur(0.9px);
-
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-  }
-
-}
-
-
-
 .homePage{
 
   width: 100%;
@@ -158,19 +18,17 @@
     align-content: center;
     
     &--header{
-        width: 100%;
-        height: 100%;
-        position: relative;
-        //border: 1px solid red;
+
+      width: 100%;
+      height: 100%;
+      position: relative;
 
       &--backgroundImage{
 
         width:100%;
         height:100%;
-        
         filter: blur(0.9px);
         -webkit-filter: blur(0.9px);
-
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -179,27 +37,18 @@
 
       &--textWrapper{
 
-        
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         z-index: 1;
-        border: 1px solid red;
-        
 
         &--title{
 
           font-family: 'Raleway', sans-serif;
           font-weight: 100;
-          font-size: 5vw;
-          
+          font-size: 5vw;         
           text-align: center;
-          position: fixed;
-          
-          top: 45%;
-          left:50%;
-
-          transform: translate(-50%, -50%);
           color: #FFFFFF;
           letter-spacing: 8px;
 
@@ -212,11 +61,6 @@
           font-weight: 100;
           width: 100%;
           text-align: center;
-          position: fixed;
-          
-          top: 55%;
-          left: 50%;
-          transform: translate(-50%, -50%);
           color: #FFFFFF;
           letter-spacing: 2px;
 

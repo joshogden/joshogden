@@ -12,22 +12,23 @@ const sideDrawer = props => {
 
     return (
     <nav className={drawerClasses}>
-        <div className="sideDrawer__title">JOSH OGDEN</div>
-
-        <div className="sideDrawer__items">
-        <Link className="sideDrawer__items--item" to="/" >
+        <div className="sideDrawer__content">
+        <div className="sideDrawer__content--title">JOSH OGDEN</div>
+        </div>
+        <div className="sideDrawer__content--items">
+        <Link className="sideDrawer__content--items--item" to="/" >
             Home
         </Link>
 
-        <Link className="sideDrawer__items--item" to="/portfolio">
+                <Link className="sideDrawer__content--items--item" to="/portfolio">
             Portfolio
         </Link>
 
-        <Link className="sideDrawer__items--item" to="/aboutme">
+                <Link className="sideDrawer__content--items--item" to="/aboutme">
             About Me
         </Link>
 
-        <Link className="sideDrawer__items--item" to="/contactme">
+                <Link className="sideDrawer__content--items--item" to="/contactme">
             Contact Me
         </Link>
         </div>

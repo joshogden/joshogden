@@ -8,7 +8,7 @@
     top: 0;
     left: 0;
     width: 80%;
-    max-width: 400px;
+    max-width: 600px;
     z-index: 200;
     transform: translateX(-100%);
     transition: transform 0.3s ease-out;
@@ -17,7 +17,19 @@
         display:none;
     }
 
-    &__items{
+    &__content{
+
+    top:50%;
+    left: 50%;
+    border-bottom: 1px solid black;
+
+    &--title{
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
+    &--items{
         display: flex;
         flex-direction: column;
 
@@ -25,11 +37,15 @@
         list-style: none;
         display: inline;
         flex-direction: column;
-
+        text-align: center;
         text-decoration: none;
         color: black;
+        padding: 20px 0;
+        font-size: 20px;
     }
     }   
+
+}
 
     
 }
