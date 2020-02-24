@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import './contactMe.scss';
+import Image from '../assets/images/tanisha-bench.jpg'
+// import Form from '../components/ContactForm/Form'
 
 
 class Contact extends Component {
@@ -10,6 +12,16 @@ class Contact extends Component {
           <div className="contactMe__content--header">
             <h1 className="contactMe__content--header--title">CONTACT ME</h1>
           </div>
+
+          <div className="contactMe__content--formWrapper">
+            <div className="contactMe__content--formWrapper--from">
+              {/* <Form /> */}
+            </div>
+            <img className="contactMe__content--formWrapper--image" src={Image} alt="" height="50%" width="50%">
+            </img> 
+            
+          </div>
+
           <h3>Follow Me on Social Media</h3>
           <li>
             <a
@@ -38,10 +50,6 @@ class Contact extends Component {
               Twitter
             </a>
           </li>
-
-          {/* <div className="portfolio__content--image">
-            <Gallery photos={PHOTO_SET} direction="column" columns={columns} />
-          </div> */}
         </div>
       </div>
     );
