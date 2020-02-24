@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
+@import "../Media-Queries.scss";
+
+.header{
+  
+  
+  &__container{
+      display: flex;
+      flex-direction: row;
+        margin-top: 24px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid black;
+        justify-content: space-between;
+
+        @include respond-below(sm){
+        margin-bottom: 36px;
+    }
+
+       
+
+  &--title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    font-size: 22px;
+    margin: 0;
+    
+  }
+
+  &--mobileNav{
+    align-items: center;
+    margin-top: 12px;
+
+    @include respond-above(sm){
+        display:none;
+    }
+  }
+
+  a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-decoration: none;
+  }
+}
+}
+
+.nav{
+  
+  width:100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+@include respond-below(sm){
+        display: none;
+        
+}
+    
+  &__bar{
+      display:flex;
+      flex-direction: row;
+      width: 100%;
+    //   justify-content: left;
+  }
+
+  a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 24px;
+
+  }
+
+  a:hover{
+      font-weight: 500;
+  }
+
+}

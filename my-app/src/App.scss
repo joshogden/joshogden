@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
+@import "./Components/Media-Queries.scss";
+
+.App{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+
+.footer{
+  font-family: 'Raleway', sans-serif;
+  //display: flex;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #000000;
+  text-align: left;
+  background-color: #FFFFFF;
+  border-top: 1px solid black;
+  margin-top: 2%;
+  
+  
+  &__title{
+    
+    padding: 1% 0% 1% 0%;
+    margin: 0%;
+
+    
+  }
+
+  
+
+}
+
+.footer p {
+    margin: 0%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+// *{
+//   border: 1px solid red;
+// }
