@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './homePage.scss';
 import HeroImage from '../assets/images/Lost in Koh Mak.jpg';
+import SecondImage from '../assets/images/Top-Travel-Couples-Lebuzz-Header-1920x1126.jpg';
 
 
 class Home extends Component {
@@ -10,7 +11,8 @@ class Home extends Component {
             <div className="homePage__content">
               <div className="homePage__content--header">  
                   <img className="homePage__content--header--backgroundImage" src={HeroImage} alt="A young girl on a moped, exploring a lush green tropical forrest." height="100%" width="100%">
-                  </img>  
+                  </img>
+                 
                   <div className="homePage__content--header--textWrapper">
                     <h1 className="homePage__content--header--textWrapper--title">
                       JOSH OGDEN
@@ -20,6 +22,8 @@ class Home extends Component {
                   </h3>
                 </div>
               </div>
+              <img className="homePage__content--header--backgroundImage" src={SecondImage} alt="A young girl on a moped, exploring a lush green tropical forrest." height="100%" width="100%">
+                </img> 
             </div>
           </div>
         );

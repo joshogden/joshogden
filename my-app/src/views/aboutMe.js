@@ -20,17 +20,9 @@ class About extends Component {
           {/* <!--first section --> */}
           <section class="module content">
             <div class="container">
-              <h2>Grand Canyon</h2>
+              <h2>Who are you..?</h2>
               <p>
-                The Grand Canyon is a steep-sided canyon carved by the Colorado
-                River in the state of Arizona in the United States. It is
-                contained within and managed by Grand Canyon National Park, the
-                Hualapai Tribal Nation, the Havasupai Tribe and the Navajo
-                Nation. President Theodore Roosevelt was a major proponent of
-                preservation of the Grand Canyon area, and visited it on
-                numerous occasions to hunt and enjoy the scenery. The Grand
-                Canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide
-                and attains a depth of over a mile (6,000 feet or 1,800 meters)
+                Hey, I'm Josh, I am currently 20 years old and live in a small town in Cheshire, England. I have a few interests which I really enjoy, these includ filming things and taking photos, I love to go on a good adventure, even if I do moan and complain the whole way. I love to explore new places and try to push myself to do new things (emphasis on the 'try'), I usually need a good shove to help me though. 
               </p>
             </div>
           </section>
@@ -45,16 +37,10 @@ class About extends Component {
 
           <section class="module content">
             <div class="container">
-              <h2>The Rocky Mountains</h2>
+              <h2>Leaving the nest</h2>
               <p>
-                The Rocky Mountains, commonly known as the Rockies, are a major
-                mountain range in western North America. The Rocky Mountains
-                stretch more than 3,000 miles (4,830 km) from the northernmost
-                part of British Columbia, in western Canada, to New Mexico, in
-                the southwestern United States. Within the North American
-                Cordillera, the Rockies are somewhat distinct from the Pacific
-                Coast Ranges and the Cascade Range and Sierra Nevada which all
-                lie farther to the west.
+                I grew up in the small town of Congleton and have since been all around the world. Just a few years ago I made the big decision to not go to University and to travel around Australasia and South East Asia for 4 months with some close friends. This was an incredible experience which I documented on my YouTube Channel <a href="https://www.youtube.com/user/SpaceJumpFilms/playlists" target="blank">here</a>.  </p>
+                <p>We tried to make the most of our time travelling by splitting up the time in a few countires that we all wanted to visit. We spent 1 month in New Zealand and another month on the east coast of Australia, this was by far the most expensive 2 months and a lot of travelling around was done in order to try and see everything. For the remainder of the trip we took things a little slower and travelled to Bali, Singapore, Thailand and Sri Lanka. These were some incredible countires and I wish I had some more time to explore them deeper.
               </p>
             </div>
           </section>
@@ -62,13 +48,13 @@ class About extends Component {
 
           <section class="module parallax parallax-3">
             <div class="container">
-              <h1>Life.</h1>
+              <h1>Me.</h1>
             </div>
           </section>
 
           <section class="module content">
             <div class="container">
-              <h2>Niagara Falls</h2>
+              <h2>Future</h2>
               <p>
                 Niagara Falls is the collective name for three waterfalls that
                 straddle the international border between Canada and the United
