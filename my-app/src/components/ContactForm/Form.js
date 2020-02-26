@@ -21,28 +21,32 @@ class Form extends Component {
     }
 
     render() {
-        return(
-            <div>
-
-                {/* Name field */}
-                <Field
-                onChange={(event) => this.updateField('name', event.target.value )} 
-                value={this.state.name}/>
-                {/* Email field */}
-                <Field 
-                onChange={(event) => this.updateField('email', event.target.value )} 
-                value={this.state.email} />
-                {/* Message textarea */}
-                <Field 
-                textarea={true}
-                onChange={(event) => this.updateField('message', event.target.value )} 
-                value={this.state.message} />
-                {/* Submit button */}
-                <Button 
-                formValues={this.state} 
-                email="oggy19999@hotmail.co.uk" />
-
-            </div>
+        return (
+          <div>
+            {/* Name field */}
+            <Field
+              label="Name"
+              onChange={event => this.updateField("name", event.target.value)}
+              value={this.state.name}
+            />
+            {/* Email field */}
+            <Field
+              label="Email"
+              onChange={event => this.updateField("email", event.target.value)}
+              value={this.state.email}
+            />
+            {/* Message textarea */}
+            <Field
+              label="Message"
+              textarea={true}
+              onChange={event =>
+                this.updateField("message", event.target.value)
+              }
+              value={this.state.message}
+            />
+            {/* Submit button */}
+            <Button formValues={this.state} email="oggy19999@hotmail.co.uk" />
+          </div>
         );
     }
 }
