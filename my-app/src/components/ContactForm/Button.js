@@ -34,7 +34,7 @@ static propTypes = {
                 disabled={this.state.isClicked}
                 onClick={this.logFromDataToConsole}
            >
-               Contact Us
+               Send Message
             </a>
         );
     }
