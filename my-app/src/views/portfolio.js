@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import './portfolio.scss';
 import Gallery from "react-photo-gallery";
-import PuntaCanaImage from "../assets/punta-cana-dominican-republic-gettyimages-684829920_0.jpg";
-import CouplesImage from "../assets/Top-Travel-Couples-Lebuzz-Header-1920x1126.jpg";
+import PuntaCanaImage from "../assets/images/punta-cana-dominican-republic-gettyimages-684829920_0.jpg";
+import CouplesImage from "../assets/images/Top-Travel-Couples-Lebuzz-Header-1920x1126.jpg";
 import CocaCola from "../assets/images/coca-cola.jpg";
 import CocaCola2 from "../assets/images/coca-cola2.jpg";
 import Bike from "../assets/images/bike.jpg";
