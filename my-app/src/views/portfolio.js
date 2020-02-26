@@ -28,10 +28,7 @@ class Portfolio extends Component {
             <Gallery photos={PHOTO_SET} direction="column" columns={columns} />
           </div>
           <div>
-            <iframe title="48 Hours In Prauge" width="100%" height="100%" src="https://www.youtube.com/embed/Fz95ixvxfIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowFullScreen"></iframe>
-          </div>
-          <div>
-            <p>hi</p>
+            <iframe title="48 Hours In Prauge" width="50%" height="340" src="https://www.youtube.com/embed/Fz95ixvxfIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowFullScreen"></iframe>
           </div>
         </div>
       </div>
@@ -80,7 +77,7 @@ class Portfolio extends Component {
     {
       src: TanishaBench,
       width: 16,
-      height: 10
+      height: 11
     },
     {
       src: CocaCola2,

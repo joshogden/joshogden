@@ -9,7 +9,7 @@ class Home extends Component {
           <div className="homePage">
             <div className="homePage__content">
               <div className="homePage__content--header">  
-                  <img className="homePage__content--header--backgroundImage" src={HeroImage} alt="" height="100%" width="100%">
+                  <img className="homePage__content--header--backgroundImage" src={HeroImage} alt="A young girl on a moped, exploring a lush green tropical forrest." height="100%" width="100%">
                   </img>  
                   <div className="homePage__content--header--textWrapper">
                     <h1 className="homePage__content--header--textWrapper--title">

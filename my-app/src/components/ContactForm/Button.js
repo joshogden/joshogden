@@ -22,20 +22,21 @@ static propTypes = {
 
     logFromDataToConsole(event) {
         console.log('Form Values', this.props.formValues);
+        this.setState({ isClicked: true });
     }
 
     render() {
-        const recipient = 'mailto:${this.props.email}';
+        const recipient = `mailto:${this.props.email}`;
         const subject = '?subject=Interested%20Client';
-        const body = '&body=${this.props.formValues.message}';
+        const body = `&body=${this.props.formValues.message}`;
         return(
-           <a
-                href={'${recipient}${subject}${body}'}
+           <button
+                href={`${recipient}${subject}${body}`}
                 disabled={this.state.isClicked}
                 onClick={this.logFromDataToConsole}
            >
                Send Message
-            </a>
+            </button>
         );
     }
 }
