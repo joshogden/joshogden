@@ -40,7 +40,7 @@ class About extends Component {
               <h2>Leaving the nest</h2>
               <p>
                 I grew up in the small town of Congleton and have since been all around the world. Just a few years ago I made the big decision to not go to University and to travel around Australasia and South East Asia for 4 months with some close friends. This was an incredible experience which I documented on my YouTube Channel <a href="https://www.youtube.com/user/SpaceJumpFilms/playlists" target="blank">here</a>.  </p>
-                <p>We tried to make the most of our time travelling by splitting up the time in a few countires that we all wanted to visit. We spent 1 month in New Zealand and another month on the east coast of Australia, this was by far the most expensive 2 months and a lot of travelling around was done in order to try and see everything. For the remainder of the trip we took things a little slower and travelled to Bali, Singapore, Thailand and Sri Lanka. These were some incredible countires and I wish I had some more time to explore them deeper.
+                <p>We tried to make the most of our time travelling by splitting up the time in a few countires that we all wanted to visit. We spent 1 month in New Zealand and another month on the east coast of Australia, this was by far the most expensive 2 months and a lot of travelling around was done in order to try and see everything. For the remainder of the trip we took things a little slower and travelled to Bali, Singapore, Thailand and Sri Lanka. These were some incredible countires and I wish I had some more time to explore them deeper, as theyhave so much to offer.
               </p>
             </div>
           </section>
@@ -56,11 +56,7 @@ class About extends Component {
             <div class="container">
               <h2>Future</h2>
               <p>
-                Niagara Falls is the collective name for three waterfalls that
-                straddle the international border between Canada and the United
-                States; more specifically, between the province of Ontario and
-                the state of New York. They form the southern end of the Niagara
-                Gorge.
+                To be honest, I don't know what my future will hold, I mean who does? No one. I just have a few things I guess I would like to accomplish in the near future at least. First of all I really want to learn how to SKydive on my own!! I have done a Tandem Skydive when I was in New Zealand but I want to take it to the next level and do my AFF Skydiving Course. 
               </p>
             </div>
           </section>

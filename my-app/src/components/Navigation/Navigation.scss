@@ -3,21 +3,25 @@
 @import "../Media-Queries.scss";
 
 .header{
-
- margin-left: 8%;
+  
+  //position: fixed;
+  
+  margin-top: 24px;
+  margin-left: 8%;
   margin-right: 8%;
   
   
   &__container{
-      display: flex;
-      flex-direction: row;
-        margin-top: 24px;
-        padding-bottom: 12px;
-        border-bottom: 1px solid black;
-        justify-content: space-between;
 
-        @include respond-below(sm){
-        margin-bottom: 36px;
+    display: flex;
+    flex-direction: row;
+    
+    padding-bottom: 12px;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+
+    @include respond-below(sm){
+      margin-bottom: 36px;
     }
 
        
@@ -47,6 +51,10 @@
     text-decoration: none;
   }
 }
+}
+
+.header__hidden{
+  margin-top: -105px;
 }
 
 .nav{

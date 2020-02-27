@@ -2,36 +2,64 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navigation.scss';
 import DrawerToggleButton from './MobileNavigation/DrawerToggleButton';
+import { render } from 'react-dom';
 
-const navigation = props => (
-  <header className="header">
-    <div className="header__container">
-      <Link to="/">
-        <h2 className="header__container--title">JOSH OGDEN</h2>
-      </Link>
+// class Navigation extends Component{
 
-      <div className="header__container--mobileNav">
-        <DrawerToggleButton click={props.drawerClickHandler}/>
-      </div>
-    </div>
+  // let last_known_scroll_position = 0;
+  // let ticking = false;
 
-    <div className="nav">
-      <nav className="nav__bar">
-        <div>
-          <Link to="/">Home</Link>
+  // function doSomething(scroll_pos) {
+  // // Do something with the scroll position
+  // }
+
+  // window.addEventListener('scroll', function (e) {
+  // last_known_scroll_position = window.scrollY;
+
+  // if (!ticking) {
+  //   window.requestAnimationFrame(function () {
+  //     doSomething(last_known_scroll_position);
+  //     ticking = false;
+  //   });
+
+  //   ticking = true;
+  // }
+  // });
+
+  const navigation = props => (
+
+      <header className="header">
+        <div className="header__container">
+          <Link to="/">
+            <h2 className="header__container--title">JOSH OGDEN</h2>
+          </Link>
+
+          <div className="header__container--mobileNav">
+            <DrawerToggleButton click={props.drawerClickHandler} />
+          </div>
         </div>
-        <div>
-          <Link to="/portfolio">Portfolio</Link>
+
+        <div className="nav">
+          <nav className="nav__bar">
+            <div>
+              <Link to="/">Home</Link>
+            </div>
+            <div>
+              <Link to="/portfolio">Portfolio</Link>
+            </div>
+            <div>
+              <Link to="/aboutme">About Me</Link>
+            </div>
+            <div>
+              <Link to="/contactme">Contact Me</Link>
+            </div>
+          </nav>
         </div>
-        <div>
-          <Link to="/aboutme">About Me</Link>
-        </div>
-        <div>
-          <Link to="/contactme">Contact Me</Link>
-        </div>
-      </nav>
-    </div>
-  </header>
-);
+      </header>
+    );
+  // };
+
+
+
 
 export default navigation;

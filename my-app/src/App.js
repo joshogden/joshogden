@@ -34,7 +34,7 @@ class App extends Component{
 
     return (
       <div style={{ height: "100%" }} className="App">
-        <Navigation drawerClickHandler={this.drawerToggleClickHandler} />
+        <Navigation drawerClickHandler={this.drawerToggleClickHandler} className="App__nav" />
 
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backDrop}
