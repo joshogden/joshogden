@@ -56,6 +56,10 @@
         z-index: 1;
         justify-content: center;
         width: 50%;
+
+        @include respond-below(sm){
+            width: 90%;
+          }
        
 
         //border: 1px solid red;
@@ -69,7 +73,9 @@
           color: #FFFFFF;
           letter-spacing: 8px;
           
-          
+          @include respond-below(sm){
+            font-size: 6vw;
+          }
 
           
           @include respond-below(615){
@@ -94,9 +100,14 @@
           letter-spacing: 2px;
           background: rgba(0, 0, 0, 0.5);
           padding: 10px;
+
+          @include respond-below(sm){
+            font-size: 4vw;
+          }
          
           
           @include respond-below(615){
+            
             padding: 5px;
           }
 
@@ -117,8 +128,13 @@
           background: rgba(0, 0, 0, 0.7);
           padding: 10px;
           margin-bottom: 20px;
+
+          @include respond-below(sm){
+            font-size: 5vw;
+          }
           
           @include respond-below(615){
+            font-size: 4vw;
             padding: 5px;
           }
 
@@ -139,7 +155,12 @@
           padding: 10px;
           margin-bottom: 6px;
 
+          @include respond-below(sm){
+            font-size: 3vw;
+          }
+
           @include respond-below(615){
+            font-size: 3vw;
             padding: 5px;
           }
 
