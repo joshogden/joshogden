@@ -36,7 +36,7 @@ class Home extends Component {
                     What can I do for you?
                   </h3>
 
-                  <p className="homePage__content--section--textWrapper--paragraph">Hey there, my name is Josh and this is just a breif introduction to myself and my brand new website, which I have recently created. This website is here just to be a bit of a portfolio about myself and a way for possible clients to see all of my best work. I have worked with a few clients before but I mainly create videos for myself and my Social Channels, but I would like to expand my knowledge and portfolio by working with other companies and brands to help promote thier buisness needs. </p>
+                  <p className="homePage__content--section--textWrapper--paragraph">Hey there, my name is Josh and this is just a brief introduction to myself and my brand new website, which I have recently created. This website is here just to be a bit of a portfolio about myself and a way for possible clients to see all of my best work. I have worked with a few clients before but I mainly create videos for myself and my Social Channels, but I would like to expand my knowledge and portfolio by working with other companies and brands to help promote thier buisness needs. </p>
                   <p className="homePage__content--section--textWrapper--paragraph">Feel free to browse my site and my social channels to see more of the work I do and if you like what you see and would like to colaberate or work with me. Feel free to send me a message from the <a href="/contactMe">Contact Me</a> page. I am looking forward to working with lots of new people! </p>
                 </div>
               </div>
@@ -53,7 +53,7 @@ class Home extends Component {
                     Testemonials
                   </h3>
 
-                  <p className="homePage__content--section--textWrapper--paragraph">Hey there, my name is Josh and this is just a breif introduction to myself and my brand new website, which I have recently created. This website is here just to be a bit of a portfolio about myself and a way for possible clients to see all of my best work. I have worked with a few clients before but I mainly create videos for myself and my Social Channels, but I would like to expand my knowledge and portfolio by working with other companies and brands to help promote thier buisness needs. </p>
+                  <p className="homePage__content--section--textWrapper--paragraph">Hey there, my name is Josh and this is just a brief introduction to myself and my brand new website, which I have recently created. This website is here just to be a bit of a portfolio about myself and a way for possible clients to see all of my best work. I have worked with a few clients before but I mainly create videos for myself and my Social Channels, but I would like to expand my knowledge and portfolio by working with other companies and brands to help promote thier buisness needs. </p>
                   
                 </div>
               </div>
