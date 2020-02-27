@@ -45,12 +45,17 @@
       }
 
       &--textWrapper{
-
+        
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
+        justify-content: center;
+        width: 50%;
+       
+
+        //border: 1px solid red;
 
         &--title{
 
@@ -60,18 +65,36 @@
           text-align: center;
           color: #FFFFFF;
           letter-spacing: 8px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 10px;
+          
 
-      }
+          
+          @include respond-below(615){
+            padding: 5px;
+          }
+
+        }
+        
 
         &--subtitle{
 
           font-family: 'Raleway', sans-serif;
           font-size: 2vw;
           font-weight: 100;
-          width: 100%;
           text-align: center;
           color: #FFFFFF;
           letter-spacing: 2px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 10px;
+          
+          @include respond-below(615){
+            padding: 5px;
+          }
+
+          @include respond-below(xxs){
+            padding: 2px;
+          }
 
       }
 
