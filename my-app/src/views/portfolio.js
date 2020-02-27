@@ -33,8 +33,8 @@ class Portfolio extends React.Component {
           <div className="portfolio__content--imageGallery">
             <Gallery photos={PHOTO_SET} direction="column" columns={columns} />
           </div>
-          <div>
-            <iframe title="48 Hours In Prauge" width="50%" height="340" src="https://www.youtube.com/embed/Fz95ixvxfIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowFullScreen"></iframe>
+          <div className="portfolio__content--youtubeVideo">
+            <iframe title="48 Hours In Prauge" width="560" height="315" src="https://www.youtube.com/embed/Fz95ixvxfIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowFullScreen"></iframe>
 
             
             

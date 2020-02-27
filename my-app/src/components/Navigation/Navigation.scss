@@ -8,6 +8,10 @@
   z-index: 2;
   opacity: 0.5;
 
+  @include respond-below(sm){
+    opacity: 1;
+  }
+
   &__container{
     //margin-top: -105px;
     margin-top: 24px;
