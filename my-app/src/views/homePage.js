@@ -12,7 +12,7 @@ class Home extends Component {
             <div className="homePage__content">
               <div className="homePage__content--header">  
                   
-                 <video autoPlay playsinline loop muted className="test" poster="../assets/images/Lost in Koh Mak.jpg">
+                 <video autoPlay muted playsinline loop muted className="test" poster="../assets/images/Lost in Koh Mak.jpg">
                   <source  src={Video} type="video/mp4" />
                 </video>
                   <div className="homePage__content--header--textWrapper">
