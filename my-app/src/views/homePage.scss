@@ -1,10 +1,12 @@
 //Homepage
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200&display=swap');
 @import "./../components/Media-Queries.scss";
 
 .homePage{
 
+  //scroll-snap-type: y mandatory;
+  
   width: 100vw;
   height: 100vh;
   margin: auto;
@@ -15,11 +17,12 @@
 
 
   &__content{
-    
+    scroll-snap-align: start;
+    width: 100vw;
     height: 100vh;
     
     
-    &--header{
+    &--section{
 
       height: 100vh;
       position: relative;
@@ -91,6 +94,7 @@
           letter-spacing: 2px;
           background: rgba(0, 0, 0, 0.5);
           padding: 10px;
+         
           
           @include respond-below(615){
             padding: 5px;
@@ -101,6 +105,39 @@
             font-size: 4vw;
           }
 
+      }
+
+      &--paragraphTitle{
+          font-family: 'Raleway', sans-serif;
+          font-size: 2vw;
+          font-weight: 100;
+          text-align: center;
+          color: #FFFFFF;
+          letter-spacing: 2px;
+          background: rgba(0, 0, 0, 0.7);
+          padding: 10px;
+          margin-bottom: 20px;
+          
+          @include respond-below(615){
+            padding: 5px;
+          }
+
+          @include respond-below(xxs){
+            padding: 2px;
+            font-size: 4vw;
+          }
+      }
+
+      &--paragraph{
+        font-family: 'Raleway', sans-serif;
+          font-size: 1vw;
+          font-weight: 200;
+          text-align: center;
+          color: #FFFFFF;
+          letter-spacing: 2px;
+          background: rgba(0, 0, 0, 0.7);
+          padding: 10px;
+          margin-bottom: 6px;
       }
 
       }

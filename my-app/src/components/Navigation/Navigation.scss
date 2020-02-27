@@ -6,10 +6,11 @@
   background: white;
   width: 100%;
   z-index: 2;
+  opacity: 0.5;
 
   &__container{
-    margin-top: -105px;
-    //margin-top: 24px;
+    //margin-top: -105px;
+    margin-top: 24px;
     margin-left: 8%;
     margin-right: 8%;
     display: flex;
@@ -17,6 +18,7 @@
     padding-bottom: 12px;
     border-bottom: 1px solid black;
     justify-content: space-between;
+    
     @include respond-below(sm){
       margin-bottom: 36px;
     }
@@ -44,9 +46,21 @@
   }
 }
 }
-.header__hidden{
-  margin-top: -105px;
+
+.header:hover{
+  opacity: 1;
 }
+
+.header__container { 
+  //margin-top: -105px;
+  /* normal, hidden state */
+}
+
+.header:hover .header__container {
+  margin-top: 24px; /* when parent is hovered */
+  
+}
+
 .nav{
   width:100%;
   padding-top: 12px;
