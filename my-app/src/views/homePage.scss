@@ -65,8 +65,7 @@
           text-align: center;
           color: #FFFFFF;
           letter-spacing: 8px;
-          background: rgba(0, 0, 0, 0.5);
-          padding: 10px;
+          
           
 
           
@@ -74,6 +73,11 @@
             padding: 5px;
           }
 
+        }
+
+        &--title, h1{
+          background: rgba(0, 0, 0, 0.5);
+          padding: 10px;
         }
         
 
@@ -94,6 +98,7 @@
 
           @include respond-below(xxs){
             padding: 2px;
+            font-size: 4vw;
           }
 
       }
