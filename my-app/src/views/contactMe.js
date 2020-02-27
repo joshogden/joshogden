@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import './contactMe.scss';
 import Image from '../assets/images/tanisha-bench.jpg'
 import Form from '../components/ContactForm/Form'
-import Video from '../assets/video/BackgroundVideo.mp4'
 
 
 class Contact extends Component {
@@ -13,9 +12,6 @@ class Contact extends Component {
           <div className="contactMe__content--header">
             <h1 className="contactMe__content--header--title">CONTACT ME</h1>
           </div>
-          <video autoplay loop muted>
-            <source src={Video} type="video/mp4" />
-          </video>
           <div className="contactMe__content--formWrapper">
             <div className="contactMe__content--formWrapper--from">
               <Form />
