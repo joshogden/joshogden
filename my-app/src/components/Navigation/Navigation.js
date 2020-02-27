@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navigation.scss';
 import DrawerToggleButton from './MobileNavigation/DrawerToggleButton';
-import { render } from 'react-dom';
+
 
 // class Navigation extends Component{
 

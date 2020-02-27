@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100&display=swap');
 @import "../../Media-Queries.scss";
 
 .sideDrawer{
@@ -42,12 +43,20 @@
         color: black;
         padding: 20px 0;
         font-size: 20px;
-    }
+        font-weight: 100;
+        
+        a{
+            
+            font-weight: 100;
+            
+        }   
+        
     }   
 
 }
 
     
+}
 }
 
 .sideDrawer.open{

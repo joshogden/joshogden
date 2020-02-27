@@ -11,12 +11,18 @@ import Sunset from "../assets/images/sunset.jpg";
 import TanishaBench from "../assets/images/tanisha-bench.jpg";
 import TomCath from "../assets/images/tom&cath.jpg";
 
+import BeforeAfterSlider from 'react-before-after-slider'
 
 
 
 
-class Portfolio extends Component {
+
+class Portfolio extends React.Component {
   render() {
+
+    const before = '../assets/images/bike.jpg'
+    const after = '../assets/images/coca-cola.jpg'
+
     return (
       <div className="portfolio">
         <div className="portfolio__content">
@@ -29,11 +35,23 @@ class Portfolio extends Component {
           </div>
           <div>
             <iframe title="48 Hours In Prauge" width="50%" height="340" src="https://www.youtube.com/embed/Fz95ixvxfIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowFullScreen"></iframe>
+
+            
+            
           </div>
+          <BeforeAfterSlider
+              before={before}
+              after={after}
+              width={640}
+              height={480}
+              className="beforeAfterSlider"
+            />
         </div>
       </div>
     );
   }
+
+  
 }
 
 
@@ -95,6 +113,8 @@ class Portfolio extends Component {
     if (containerWidth >= 1500) columns = 4;
     return columns;
   }
+
+
 
 export default Portfolio;
 
