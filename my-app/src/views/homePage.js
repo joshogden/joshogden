@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './homePage.scss';
 import HeroImage from '../assets/images/Lost in Koh Mak.jpg';
 import SecondImage from '../assets/images/Top-Travel-Couples-Lebuzz-Header-1920x1126.jpg';
-import Video from '../assets/video/BackgroundVideo.mp4';
+import Video from '../assets/video/Background-Video.mp4';
 
 
 class Home extends Component {
@@ -12,7 +12,7 @@ class Home extends Component {
             <div className="homePage__content">
               <div className="homePage__content--section">  
                   
-                 <video autoPlay muted playsinline loop muted className="test" poster="../assets/images/Lost in Koh Mak.jpg">
+                 <video autoPlay muted playsInline loop muted preload="auto" className="test" poster="../assets/images/Lost in Koh Mak.jpg">
                   <source  src={Video} type="video/mp4" />
                 </video>
                 <div className="homePage__content--section--textWrapper">
@@ -25,8 +25,6 @@ class Home extends Component {
                 </div>
               </div>
               <div className="homePage__content--section">
-                {/* <img className="homePage__content--header--backgroundImage" src={SecondImage} alt="A young girl on a moped, exploring a lush green tropical forrest." height="100%" width="100%">
-                </img>  */}
 
                 <img className="homePage__content--section--backgroundImage" src={HeroImage} alt="A young lady, exploring a lush green tropical forrest whilst riding on a retro moped." height="100%" width="100%">
                   </img>
