@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.scss';
+
 import Main from './main';
 import Navigation from './components/Navigation/Navigation';
 import SideDrawer from './components/Navigation/MobileNavigation/SideDrawer';
