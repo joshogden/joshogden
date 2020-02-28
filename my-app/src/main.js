@@ -4,7 +4,7 @@ import HomePage from './views/homePage';
 import AboutMe from './views/aboutMe';
 import Portfolio from './views/portfolio';
 import ContactMe from './views/contactMe';
-import TestPage from './views/testpage';
+import TestPage from './views/testPage';
 
 const Main = () => (
   <Switch>
