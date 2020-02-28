@@ -4,7 +4,7 @@ import HomePage from './views/homePage';
 import AboutMe from './views/aboutMe';
 import Portfolio from './views/portfolio';
 import ContactMe from './views/contactMe';
-import AboutMeCopy from './views/aboutMeCopy';
+import TestPage from './views/testpage';
 
 const Main = () => (
   <Switch>
@@ -12,7 +12,7 @@ const Main = () => (
     <Route path="/aboutme" component={AboutMe} />
     <Route path="/portfolio" component={Portfolio} />
     <Route path="/contactme" component={ContactMe} />
-    <Route path="/aboutMeCopy" component={AboutMeCopy} />
+    <Route path="/testpage" component={TestPage} />
   </Switch>
 );
 

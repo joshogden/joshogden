@@ -9,7 +9,7 @@
   opacity: 0.9;
 
   @include respond-below(sm){
-    opacity: 1;
+    opacity: 0.9;
   }
 
   &__container{
@@ -24,14 +24,15 @@
     justify-content: space-between;
     
     @include respond-below(sm){
-      margin-bottom: 36px;
+      margin-bottom: 0;
+      
     }
 
   &--title{
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 22px;
-    font-size: 22px;
+    
     margin: 0;
   }
 
@@ -75,6 +76,7 @@
   margin-right: 8%;
 @include respond-below(sm){
         display: none;
+        
 }
   &__bar{
       display:flex;
