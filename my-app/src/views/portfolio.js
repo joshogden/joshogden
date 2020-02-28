@@ -12,11 +12,6 @@ import TanishaBench from "../assets/images/tanisha-bench.jpg";
 import TomCath from "../assets/images/tom&cath.jpg";
 
 // import BeforeAfterSlider from 'react-before-after-slider'
-
-
-
-
-
 class Portfolio extends Component {
   render() {
 
