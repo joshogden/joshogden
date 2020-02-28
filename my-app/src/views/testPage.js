@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import './aboutMe.scss';
 import {Parallax} from 'react-parallax';
-// import HeroImage from "../assets/images/Lost in Koh Mak.jpg";
 
 
 

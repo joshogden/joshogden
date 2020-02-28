@@ -15,8 +15,8 @@ import TomCath from "../assets/images/tom&cath.jpg";
 class Portfolio extends Component {
   render() {
 
-    const before = '../assets/images/bike.jpg'
-    const after = '../assets/images/coca-cola.jpg'
+    // const before = '../assets/images/bike.jpg'
+    // const after = '../assets/images/coca-cola.jpg'
 
     return (
       <div className="portfolio">
