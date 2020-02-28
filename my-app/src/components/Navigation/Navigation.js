@@ -6,16 +6,48 @@ import DrawerToggleButton from './MobileNavigation/DrawerToggleButton';
 
 class Navigation extends Component{
 
-  componentDidMount() {
-    console.log(this.props);
-    window.addEventListener('scroll', () => {
-      console.log(window);
-    })
-  }
+  // let last_known_scroll_position = 0;
+  // let ticking = false;
+
+  // function doSomething(scroll_pos) {
+  // // Do something with the scroll position
+  // }
+
+  // window.addEventListener('scroll', function (e) {
+  // last_known_scroll_position = window.scrollY;
+
+  // if (!ticking) {
+  //   window.requestAnimationFrame(function () {
+  //     doSomething(last_known_scroll_position);
+  //     ticking = false;
+  //   });
+
+  //   ticking = true;
+  // }
+  // }
+
+  // constructor(props) {
+  //   super(props);
+  //   this.state = { showNav: false };
+  // }
+
+  // componentDidMount() {
+    
+  //   window.addEventListener('scroll', () => {
+      
+  //     if(window.pageYOffset > 200 && {showNav:false}){
+  //       this.setState({showNav: true})
+  //     }
+  //     if (window.pageYOffset < 200 && { showNav: true }){
+  //       this.setState({showNav: false})
+  //     }
+  //   })
+  // }
 
   render() {
     return(
       
+      // !this.state.showNav ? null : 
       <header className = "header" >
       <div className="header__container">
         <Link to="/">

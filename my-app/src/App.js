@@ -38,7 +38,7 @@ class App extends Component{
 
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backDrop}
-
+      
         <Main />
       </div>
     );

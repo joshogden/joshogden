@@ -3,6 +3,7 @@ import './aboutMe.scss';
 
 
 
+
 class About extends Component {
   render() {
     return (
@@ -12,14 +13,14 @@ class About extends Component {
             <h1 className="aboutMe__content--header--title">ABOUT ME</h1>
           </div>
 
-          <section class="module parallax parallax-1">
-            <div class="container">
+          <section className="module parallax parallax-1">
+            <div className="container">
               <h1>This</h1>
             </div>
           </section>
           {/* <!--first section --> */}
-          <section class="module content">
-            <div class="container">
+          <section className="module content">
+            <div className="container">
               <h2>Who are you..?</h2>
               <p>
                 Hey, I'm Josh, I am currently 20 years old and live in a small town in Cheshire, England. I have a few interests which I really enjoy, these includ filming things and taking photos, I love to go on a good adventure, even if I do moan and complain the whole way. I love to explore new places and try to push myself to do new things (emphasis on the 'try'), I usually need a good shove to help me though. 
@@ -28,15 +29,15 @@ class About extends Component {
           </section>
           {/* <!--Grand Canyon content --> */}
 
-          <section class="module parallax parallax-2">
-            <div class="container">
+          <section className="module parallax parallax-2">
+            <div className="container">
               <h1>Is</h1>
             </div>
           </section>
           {/* <!-- end of rocky mountains --> */}
 
-          <section class="module content">
-            <div class="container">
+          <section className="module content">
+            <div className="container">
               <h2>Leaving the nest</h2>
               <p>
                 I grew up in the small town of Congleton and have since been all around the world. Just a few years ago I made the big decision to not go to University and to travel around Australasia and South East Asia for 4 months with some close friends. This was an incredible experience which I documented on my YouTube Channel <a href="https://www.youtube.com/user/SpaceJumpFilms/playlists" target="blank">here</a>.  </p>
@@ -46,14 +47,14 @@ class About extends Component {
           </section>
           {/* <!-- end Rocky Mountain content --> */}
 
-          <section class="module parallax parallax-3">
-            <div class="container">
+          <section className="module parallax parallax-3">
+            <div className="container">
               <h1>Me.</h1>
             </div>
           </section>
 
-          <section class="module content">
-            <div class="container">
+          <section className="module content">
+            <div className="container">
               <h2>Future</h2>
               <p>
                 To be honest, I don't know what my future will hold, I mean who does? No one. I just have a few things I guess I would like to accomplish in the near future at least. First of all I really want to learn how to SKydive on my own!! I have done a Tandem Skydive when I was in New Zealand but I want to take it to the next level and do my AFF Skydiving Course. 

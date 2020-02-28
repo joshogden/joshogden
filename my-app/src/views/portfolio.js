@@ -17,7 +17,7 @@ import BeforeAfterSlider from 'react-before-after-slider'
 
 
 
-class Portfolio extends React.Component {
+class Portfolio extends Component {
   render() {
 
     const before = '../assets/images/bike.jpg'

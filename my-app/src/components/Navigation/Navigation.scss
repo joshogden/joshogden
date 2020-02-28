@@ -6,7 +6,7 @@
   background: white;
   width: 100%;
   z-index: 2;
-  opacity: 0.5;
+  opacity: 0.9;
 
   @include respond-below(sm){
     opacity: 1;
@@ -51,9 +51,11 @@
 }
 }
 
-.header:hover{
-  opacity: 1;
+.header--hidden{
+  margin-top: -105px;
 }
+
+
 
 .header__container { 
   //margin-top: -105px;
@@ -61,7 +63,7 @@
 }
 
 .header:hover .header__container {
-  margin-top: 24px; /* when parent is hovered */
+  //margin-top: 24px; /* when parent is hovered */
   
 }
 
