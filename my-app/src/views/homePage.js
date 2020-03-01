@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './homePage.scss';
 import { Link } from 'react-router-dom';
 import HeroImage from '../assets/images/Lost in Koh Mak.jpg';
-import SecondImage from '../assets/images/Top-Travel-Couples-Lebuzz-Header-1920x1126.jpg';
+import SecondImage from '../assets/images/punta-cana-dominican-republic-gettyimages-684829920_0.jpg';
 import Video from '../assets/video/Background-Video-High.mp4';
 
 
