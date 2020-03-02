@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "framer-motion": "^1.8.4",
     "react-parallax": "^3.0.3"
   }
 }
