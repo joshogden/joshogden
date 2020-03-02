@@ -11,12 +11,10 @@ import Sunset from "../assets/images/sunset.jpg";
 import TanishaBench from "../assets/images/tanisha-bench.jpg";
 import TomCath from "../assets/images/tom&cath.jpg";
 
-// import BeforeAfterSlider from 'react-before-after-slider'
 class Portfolio extends Component {
   render() {
 
-    // const before = '../assets/images/bike.jpg'
-    // const after = '../assets/images/coca-cola.jpg'
+    
 
     return (
       <div className="portfolio">
@@ -34,13 +32,7 @@ class Portfolio extends Component {
             
             
           </div>
-          {/* <BeforeAfterSlider
-              before={before}
-              after={after}
-              width={640}
-              height={480}
-              className="beforeAfterSlider"
-            /> */}
+          
         </div>
       </div>
     );

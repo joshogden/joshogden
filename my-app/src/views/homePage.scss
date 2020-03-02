@@ -125,14 +125,17 @@
         background: rgba(0, 0, 0, 0.5);
         
         border: 1px solid black;
-        padding: 10px;
+        padding: 10px 20px;
         font-family: 'Raleway', sans-serif;
         max-width: 40%;
         
         //margin-top: 50px;
         
-        border-radius: 5px;
+        border-radius: 10px;
         text-decoration: none;
+
+        
+        cursor: pointer;
 
       }
 

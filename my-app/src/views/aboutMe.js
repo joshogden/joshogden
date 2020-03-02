@@ -28,7 +28,7 @@ class About extends Component {
             </Parallax>
           </section>
           <section className="aboutMe__content--TextSection">
-            <h2>Who are you..?</h2>
+            <h2>Who am I..?</h2>
             <p>
               Hey, I'm Josh, I am currently 20 years old and live in a small
               town in Cheshire, England. I have a few interests which I really

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './contactMe.scss';
-import Image from '../assets/images/tanisha-bench.jpg'
-import Form from '../components/ContactForm/Form'
+import Image from '../assets/images/josh.jpg'
+
 
 
 class Contact extends Component {
@@ -13,12 +13,35 @@ class Contact extends Component {
             <h1 className="contactMe__content--header--title">CONTACT ME</h1>
           </div>
           <div className="contactMe__content--formWrapper">
-            <div className="contactMe__content--formWrapper--from">
-              <Form />
-            </div>
-            <img className="contactMe__content--formWrapper--image" src={Image} alt="" height="50%" width="50%">
-            </img> 
-            
+            <form className="contactMe__content--formWrapper--form">
+              <label className="contactMe__content--formWrapper--form--field">
+                <input type="text" name="name" placeholder="Your Name" />
+              </label>
+              <label className="contactMe__content--formWrapper--form--field">
+                <input type="text" name="email" placeholder="Your Email" />
+              </label>
+              <label className="contactMe__content--formWrapper--form--textarea">
+                <textarea
+                className=""
+                  type="text"
+                  name="textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </label>
+
+              <input
+                type="submit"
+                value="Submit"
+                className="contactMe__content--formWrapper--form--submit"
+              />
+            </form>
+
+            <img
+              className="contactMe__content--formWrapper--image"
+              src={Image}
+              alt=""
+              width="300px"
+            ></img>
           </div>
 
           <h3>Follow Me on Social Media</h3>

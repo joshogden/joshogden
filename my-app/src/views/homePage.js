@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './homePage.scss';
 import { Link } from 'react-router-dom';
-import HeroImage from '../assets/images/Lost in Koh Mak.jpg';
+import HeroImage from '../assets/images/sunset.jpg';
 import SecondImage from '../assets/images/punta-cana-dominican-republic-gettyimages-684829920_0.jpg';
 import Video from '../assets/video/Background-Video-High.mp4';
+import { motion } from "framer-motion";
 
 
 
@@ -31,7 +32,11 @@ class Home extends Component {
                   <h3 className="homePage__content--section--textWrapper--subtitle">
                     Create your own reality
                   </h3>
-                  <button className="homePage__content--section--textWrapper--button">
+                  <motion.button
+                    className="homePage__content--section--textWrapper--button"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9, x: "0px", y: "0px" }}
+                  >
                     <a
                       href="https://www.youtube.com/joshogdenn"
                       target="_blank"
@@ -39,7 +44,8 @@ class Home extends Component {
                     >
                       Watch More
                     </a>
-                  </button>
+                  </motion.button>
+                  {/* <img src={Arrow}></img> */}
                 </div>
               </div>
               <div className="homePage__content--section">
@@ -79,9 +85,6 @@ class Home extends Component {
               </div>
 
               <div className="homePage__content--section">
-                {/* <img className="homePage__content--header--backgroundImage" src={SecondImage} alt="A young girl on a moped, exploring a lush green tropical forrest." height="100%" width="100%">
-                </img>  */}
-
                 <img
                   className="homePage__content--section--backgroundImage"
                   src={SecondImage}
