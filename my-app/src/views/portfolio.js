@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import './portfolio.scss';
 import Gallery from "react-photo-gallery";
-import PuntaCanaImage from "../assets/images/punta-cana-dominican-republic-gettyimages-684829920_0.jpg";
-import CouplesImage from "../assets/images/Top-Travel-Couples-Lebuzz-Header-1920x1126.jpg";
+// import PuntaCanaImage from "../assets/images/punta-cana-dominican-republic-gettyimages-684829920_0.jpg";
+// import CouplesImage from "../assets/images/Top-Travel-Couples-Lebuzz-Header-1920x1126.jpg";
 import CocaCola from "../assets/images/coca-cola.jpg";
 import CocaCola2 from "../assets/images/coca-cola2.jpg";
 import Bike from "../assets/images/bike.jpg";
@@ -10,6 +10,12 @@ import HangingMan from "../assets/images/hanging-man.jpg";
 import Sunset from "../assets/images/sunset.jpg";
 import TanishaBench from "../assets/images/tanisha-bench.jpg";
 import TomCath from "../assets/images/tom&cath.jpg";
+import Mexico from "../assets/images/Mexico.jpg";
+import SriLanka from "../assets/images/SriLanka.jpg";
+import SurfersParadise from "../assets/images/SurfersParadise.jpg";
+import TanishaBack from "../assets/images/Tanisha-back.jpg";
+import Tanisha from "../assets/images/Tanisha.jpg";
+
 
 class Portfolio extends Component {
   render() {
@@ -44,19 +50,24 @@ class Portfolio extends Component {
 
   const PHOTO_SET = [
     {
-      src: PuntaCanaImage,
-      width: 4,
-      height: 3
+      src: SurfersParadise,
+      width: 16,
+      height: 10
     },
     {
-      src: CouplesImage,
-      width: 16,
-      height: 9
+      src: Mexico,
+      width: 3,
+      height: 4
     },
     {
       src: CocaCola,
       width: 16,
       height: 11
+    },
+    {
+      src: TanishaBack,
+      width: 3,
+      height: 4
     },
     {
       src: Bike,
@@ -80,12 +91,22 @@ class Portfolio extends Component {
       height: 10
     },
     {
+      src: Tanisha,
+      width: 3,
+      height: 4
+    },
+    {
       src: TanishaBench,
       width: 16,
       height: 11
     },
     {
       src: CocaCola2,
+      width: 16,
+      height: 10
+    },
+    {
+      src: SriLanka,
       width: 16,
       height: 10
     },

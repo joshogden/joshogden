@@ -22,7 +22,6 @@ class Contact extends Component {
               </label>
               <label className="contactMe__content--formWrapper--form--textarea">
                 <textarea
-                className=""
                   type="text"
                   name="textarea"
                   placeholder="Your Message"
@@ -33,6 +32,7 @@ class Contact extends Component {
                 type="submit"
                 value="Submit"
                 className="contactMe__content--formWrapper--form--submit"
+                href="mailto:oggyogden@btinternet.com?subject=Website%20Inquiry"
               />
             </form>
 
